@@ -1,0 +1,1 @@
+db.libros.aggregate([{$group : {_id : "$nivel", "cantidadCreditos" : {$sum : "$creditos"}}}])

@@ -1,0 +1,1 @@
+db.cursos.find({"nombre" : "Arquitectura de Software"}, {"nombre" : 1, "profesor" : 1, _id : 0})
